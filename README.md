@@ -1,4 +1,0 @@
-w
-=
-
-Spring, Hibernate, Gwt

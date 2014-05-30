@@ -20,6 +20,5 @@ public class SpringContextTest {
     } catch ( BeansException e ) {
       e.printStackTrace();
     }
-    ;
   }
 }

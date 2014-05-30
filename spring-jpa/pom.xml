@@ -13,10 +13,17 @@
 
 	<properties>
 		<spring.group>org.springframework</spring.group>
-		<spring.version>3.0.2.RELEASE</spring.version>
+		<spring.version>3.2.4.RELEASE</spring.version>
 	</properties>
 
 	<dependencies>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-core</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
 
 		<dependency>
 			<groupId>${spring.group}</groupId>
@@ -25,8 +32,20 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework</groupId>
+			<groupId>${spring.group}</groupId>
 			<artifactId>spring-test</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${spring.group}</groupId>
+			<artifactId>spring-tx</artifactId>
+			<version>${spring.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${spring.group}</groupId>
+			<artifactId>spring-orm</artifactId>
 			<version>${spring.version}</version>
 		</dependency>
 
@@ -36,6 +55,27 @@
 			<version>4.6</version>
 			<scope>test</scope>
 		</dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>1.3.168</version>
+		</dependency>
+
+		<!-- HIBERNATE -->
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+			<version>3.6.10.Final</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
+			<version>3.6.10.Final</version>
+		</dependency>
+
 
 	</dependencies>
 

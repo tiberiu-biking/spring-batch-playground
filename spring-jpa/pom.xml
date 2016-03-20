@@ -3,8 +3,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
-		<groupId>com.tpo.w</groupId>
-		<artifactId>parent</artifactId>
+		<groupId>com.tpo.batch</groupId>
+		<artifactId>spring-batch-playground</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
